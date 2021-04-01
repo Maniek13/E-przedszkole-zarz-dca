@@ -1,0 +1,148 @@
+.container {
+    display: table
+}
+.left, .right {
+    display: table-cell
+}
+.left {
+    width: 150px;
+}
+
+label
+{
+    display: block;
+    line-height: 2.3;
+    width: 200px;
+}
+
+body
+{
+    padding: 0;
+    margin: 0;
+    left: 0;
+   overflow-x: hidden;
+    max-width: 1920px;
+}
+.front-img
+{
+    height: 100vh !important;
+    background-image: url("photo/home-banner-bg.webp");
+    background-size: cover !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100% !important
+}
+.front-kids
+{
+    position: relative;
+    float: right;
+    right: 10%;
+    top:-14%;
+}
+.navbar-brand
+{
+    height: 100px;
+    padding-left: 10%;
+}
+.login
+{
+    color: #fff;
+    padding-left: 10%;
+}
+.form-group>label
+{
+    padding-top: 10%;
+}
+.cards
+{
+    position: absolute;
+    left: 2%;
+    bottom: -1%;
+}
+.border
+{
+    border: 1px solid #828BB2 !important;
+}
+@media (max-width: 318px)
+{
+    .front-img
+    {
+        height: 100vh;
+        width: 100%;
+    }
+}
+@media ( max-width: 1400px) {
+    .front-kids {
+        position: relative;
+        right: -1%;
+    }
+}
+@media ( max-width: 1100px) {
+    .front-kids {
+      display: none;
+    }
+}
+@media (max-width: 600px) {
+    .card-deck{
+        display: flex;
+        flex-flow: row;
+        margin-left: 20px;
+    }
+    .card>img
+    {
+        height: 40px;
+        width: 40px;
+    }
+    .card-body
+    {
+        padding-left: 0;
+    }
+    .card-body>h4
+    {
+        font-size: 18px;
+        text-align: left;
+    }
+    .card-body>p{
+        display: flex;
+        font-size: 12px;
+    }
+    .pr-5 .pl-5 .pb-5
+    {
+        padding: 0;
+    }
+    .form-group>label
+    {
+        padding-top: 0;
+    }
+    .border
+    {
+        border: none !important;
+    }
+}
+
+.card-deck .card
+{
+    border: none;
+    background: none;
+}
+
+/*@media screen and (orientation: landscape) {*/
+/*    html {*/
+/*        !* Rotate the content container *!*/
+/*        transform: rotate(-90deg);*/
+/*        transform-origin: left top;*/
+/*        !* Set content width to viewport height *!*/
+/*        width: 100vh;*/
+/*        !* Set content height to viewport width *!*/
+/*        height: 100vw;*/
+/*        overflow-x: hidden;*/
+/*        position: absolute;*/
+/*        top: 100%;*/
+/*        left: 0;*/
+/*    }*/
+/*}*/
+
+
+
+
+
