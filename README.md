@@ -1,4 +1,6 @@
 # E-przedszkole-zarz-dca
+My first side. Do not be responsiwe. 
+
 
 1 Instal XAMPP or other php and sql server
 2 Copy files to htdocs if you use XAMPP
